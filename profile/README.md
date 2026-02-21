@@ -106,14 +106,14 @@ stages:
 
 <br>
 
-<a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/Pipeline_Specification-Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="Pipeline Spec"></a> <br><br>
-<a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/WIT_Extension_Interface-Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="WIT Interface"></a> <br><br>
-<img src="https://img.shields.io/badge/Pipeline_Schema_%26_Validation-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="Pipeline Schema"> <br><br>
-<img src="https://img.shields.io/badge/Extension_Naming_Convention-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="Extension Naming"> <br><br>
-<img src="https://img.shields.io/badge/DAG_Pipeline_Scheduler-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="DAG Scheduler"> <br><br>
-<img src="https://img.shields.io/badge/WASM_Sandbox_Model-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="WASM Sandbox"> <br><br>
-<img src="https://img.shields.io/badge/CLI_Interface_Design-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="CLI Design"> <br><br>
-<a href="https://github.com/Lab-Hit/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_Disclosure_Policy-Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="Security Policy"></a>
+<a href="https://github.com/Lab-Hit/labhit-spec"><img width="260" src="https://img.shields.io/badge/Pipeline_Specification-Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="Pipeline Spec"></a> <br><br>
+<a href="https://github.com/Lab-Hit/labhit-spec"><img width="260" src="https://img.shields.io/badge/Extension_Interface_(WIT)-Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="WIT Interface"></a> <br><br>
+<img width="260" src="https://img.shields.io/badge/Pipeline_Schema_%26_Validation-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="Pipeline Schema"> <br><br>
+<img width="260" src="https://img.shields.io/badge/Extension_Naming_Convention-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="Extension Naming"> <br><br>
+<img width="260" src="https://img.shields.io/badge/DAG_Pipeline_Scheduler-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="DAG Scheduler"> <br><br>
+<img width="260" src="https://img.shields.io/badge/WASM_Sandbox_Model-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="WASM Sandbox"> <br><br>
+<img width="260" src="https://img.shields.io/badge/CLI_Interface_Design-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="CLI Design"> <br><br>
+<a href="https://github.com/Lab-Hit/.github/blob/main/SECURITY.md"><img width="260" src="https://img.shields.io/badge/Security_Disclosure_Policy-Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="Security Policy"></a>
 
 <br><br>
 
@@ -122,9 +122,9 @@ stages:
 
 <br>
 
-<img src="https://img.shields.io/badge/Developer_Documentation-In_Progress-d29922?style=for-the-badge&labelColor=1a2332" alt="Developer Docs"> <br><br>
-<img src="https://img.shields.io/badge/Extension_Development_Kit-In_Progress-d29922?style=for-the-badge&labelColor=1a2332" alt="Extension SDK"> <br><br>
-<img src="https://img.shields.io/badge/Pipeline_Execution_Engine-In_Progress-d29922?style=for-the-badge&labelColor=1a2332" alt="Execution Engine">
+<img width="260" src="https://img.shields.io/badge/Developer_Documentation-In_Progress-d29922?style=for-the-badge&labelColor=1a2332" alt="Developer Docs"> <br><br>
+<img width="260" src="https://img.shields.io/badge/Extension_Development_Kit-In_Progress-d29922?style=for-the-badge&labelColor=1a2332" alt="Extension SDK"> <br><br>
+<img width="260" src="https://img.shields.io/badge/Pipeline_Execution_Engine-In_Progress-d29922?style=for-the-badge&labelColor=1a2332" alt="Execution Engine">
 
 <br><br>
 
@@ -133,7 +133,7 @@ stages:
 
 <br>
 
-<img src="https://img.shields.io/badge/Container_Execution_Backend-Planned-6e7681?style=for-the-badge&labelColor=1a2332" alt="Container Backend">
+<img width="260" src="https://img.shields.io/badge/Container_Execution_Backend-Planned-6e7681?style=for-the-badge&labelColor=1a2332" alt="Container Backend">
 
 <br><br>
 

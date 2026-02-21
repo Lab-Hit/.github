@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="30%" stop-color="#111827"/>
+      <stop offset="60%" stop-color="#1a1040"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f8ef7"/>
+      <stop offset="33%" stop-color="#a855f7"/>
+      <stop offset="66%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#4f8ef7"/>
+    </linearGradient>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f8ef7"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(168,85,247,0.12)"/>
+      <stop offset="100%" stop-color="rgba(168,85,247,0)"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#a855f7" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#bg)" rx="12"/>
+
+  <!-- Top accent bar -->
+  <rect width="900" height="3" fill="url(#accent)" rx="1.5"/>
+
+  <!-- Glow effect -->
+  <circle cx="450" cy="120" r="180" fill="url(#glow)"/>
+
+  <!-- Logo mark -->
+  <rect x="370" y="42" width="52" height="52" rx="13" fill="url(#logoGrad)" filter="url(#shadow)"/>
+  <text x="383" y="80" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#ffffff">L</text>
+
+  <!-- Brand name -->
+  <text x="432" y="80" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="800" fill="#ffffff" letter-spacing="1.5">LabHit</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="118" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#6e7681" letter-spacing="5" text-transform="uppercase">THE MODULAR CI/CD ENGINE</text>
+
+  <!-- Tagline -->
+  <text x="450" y="152" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#8b949e">A minimal core that schedules pipelines.</text>
+  <text x="450" y="174" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#8b949e">An open ecosystem of extensions that do the work.</text>
+
+  <!-- Tech badges -->
+  <rect x="224" y="200" width="100" height="26" rx="13" fill="rgba(222,110,52,0.12)" stroke="rgba(222,110,52,0.25)" stroke-width="1"/>
+  <text x="274" y="217" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#de6e34" letter-spacing="0.5">RUST CORE</text>
+
+  <rect x="338" y="200" width="116" height="26" rx="13" fill="rgba(101,79,240,0.12)" stroke="rgba(101,79,240,0.25)" stroke-width="1"/>
+  <text x="396" y="217" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#8b7cf7" letter-spacing="0.5">WASM PLUGINS</text>
+
+  <rect x="468" y="200" width="140" height="26" rx="13" fill="rgba(63,185,80,0.12)" stroke="rgba(63,185,80,0.25)" stroke-width="1"/>
+  <text x="538" y="217" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#3fb950" letter-spacing="0.5">SECURE BY DEFAULT</text>
+
+  <rect x="622" y="200" width="100" height="26" rx="13" fill="rgba(79,142,247,0.12)" stroke="rgba(79,142,247,0.25)" stroke-width="1"/>
+  <text x="672" y="217" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#4f8ef7" letter-spacing="0.5">APACHE 2.0</text>
+
+  <!-- Bottom subtle line -->
+  <rect x="200" y="252" width="500" height="1" rx="0.5" fill="#21262d" opacity="0.5"/>
+</svg>

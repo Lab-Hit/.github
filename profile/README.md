@@ -93,59 +93,53 @@ stages:
 
 <br>
 
-<table>
+<table width="100%">
+<thead>
 <tr>
-<td align="center" width="33%">
-
-<img src="https://img.shields.io/badge/%E2%9C%93-8-2ea043?style=for-the-badge&labelColor=1a2332" alt="8 shipped">
-
-**:white_check_mark: Shipped**
-
-</td>
-<td align="center" width="34%">
-
-<img src="https://img.shields.io/badge/%E2%97%8F-3-d29922?style=for-the-badge&labelColor=1a2332" alt="3 building">
-
-**:hammer_and_wrench: Building**
-
-</td>
-<td align="center" width="33%">
-
-<img src="https://img.shields.io/badge/%E2%97%8B-1-6e7681?style=for-the-badge&labelColor=1a2332" alt="1 next">
-
-**:compass: Next**
-
-</td>
+<th align="center" width="33%">:white_check_mark: &nbsp; Shipped &nbsp; <code>8</code></th>
+<th align="center" width="34%">:hammer_and_wrench: &nbsp; Building &nbsp; <code>3</code></th>
+<th align="center" width="33%">:compass: &nbsp; Next &nbsp; <code>1</code></th>
 </tr>
+</thead>
 <tr>
-<td valign="top">
+<td valign="top" align="center">
 
-![](https://img.shields.io/badge/Pipeline_Spec-Published-2ea043?style=flat-square&labelColor=1a2332) <br>
-![](https://img.shields.io/badge/WIT_Interface-Published-2ea043?style=flat-square&labelColor=1a2332) <br>
-![](https://img.shields.io/badge/Pipeline_Schema-Done-2ea043?style=flat-square&labelColor=1a2332) <br>
-![](https://img.shields.io/badge/Extension_Naming-Done-2ea043?style=flat-square&labelColor=1a2332) <br>
-![](https://img.shields.io/badge/DAG_Scheduler-Done-2ea043?style=flat-square&labelColor=1a2332) <br>
-![](https://img.shields.io/badge/WASM_Sandbox-Done-2ea043?style=flat-square&labelColor=1a2332) <br>
-![](https://img.shields.io/badge/CLI_Design-Done-2ea043?style=flat-square&labelColor=1a2332) <br>
-![](https://img.shields.io/badge/Security_Policy-Published-2ea043?style=flat-square&labelColor=1a2332)
+<br>
 
-</td>
-<td valign="top">
+<a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/Pipeline_Specification-Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="Pipeline Spec"></a> <br><br>
+<a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/WIT_Extension_Interface-Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="WIT Interface"></a> <br><br>
+<img src="https://img.shields.io/badge/Pipeline_Schema_%26_Validation-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="Pipeline Schema"> <br><br>
+<img src="https://img.shields.io/badge/Extension_Naming_Convention-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="Extension Naming"> <br><br>
+<img src="https://img.shields.io/badge/DAG_Pipeline_Scheduler-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="DAG Scheduler"> <br><br>
+<img src="https://img.shields.io/badge/WASM_Sandbox_Model-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="WASM Sandbox"> <br><br>
+<img src="https://img.shields.io/badge/CLI_Interface_Design-Done-2ea043?style=for-the-badge&labelColor=1a2332" alt="CLI Design"> <br><br>
+<a href="https://github.com/Lab-Hit/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_Disclosure_Policy-Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="Security Policy"></a>
 
-![](https://img.shields.io/badge/Developer_Docs-In_Progress-d29922?style=flat-square&labelColor=1a2332) <br>
-![](https://img.shields.io/badge/Extension_SDK-In_Progress-d29922?style=flat-square&labelColor=1a2332) <br>
-![](https://img.shields.io/badge/Execution_Engine-In_Progress-d29922?style=flat-square&labelColor=1a2332)
+<br><br>
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
-![](https://img.shields.io/badge/Container_Backend-Planned-6e7681?style=flat-square&labelColor=1a2332)
+<br>
+
+<img src="https://img.shields.io/badge/Developer_Documentation-In_Progress-d29922?style=for-the-badge&labelColor=1a2332" alt="Developer Docs"> <br><br>
+<img src="https://img.shields.io/badge/Extension_Development_Kit-In_Progress-d29922?style=for-the-badge&labelColor=1a2332" alt="Extension SDK"> <br><br>
+<img src="https://img.shields.io/badge/Pipeline_Execution_Engine-In_Progress-d29922?style=for-the-badge&labelColor=1a2332" alt="Execution Engine">
+
+<br><br>
+
+</td>
+<td valign="top" align="center">
+
+<br>
+
+<img src="https://img.shields.io/badge/Container_Execution_Backend-Planned-6e7681?style=for-the-badge&labelColor=1a2332" alt="Container Backend">
+
+<br><br>
 
 </td>
 </tr>
 </table>
-
-<p align="center"><sub>:green_circle: Shipped &nbsp;&nbsp;&middot;&nbsp;&nbsp; :yellow_circle: In progress &nbsp;&nbsp;&middot;&nbsp;&nbsp; :white_circle: Planned</sub></p>
 
 ---
 

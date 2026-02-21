@@ -107,15 +107,15 @@ stages:
 <br>
 
 <sub><b>PUBLISHED</b></sub> <br><br>
-<a href="https://github.com/Lab-Hit/labhit-spec"><img width="280" src="https://img.shields.io/badge/✓_Pipeline_Specification-2ea043?style=for-the-badge" alt="Pipeline Spec"></a> <br>
-<a href="https://github.com/Lab-Hit/labhit-spec"><img width="280" src="https://img.shields.io/badge/✓_Extension_Interface_(WIT)-2ea043?style=for-the-badge" alt="WIT Interface"></a> <br>
-<img width="280" src="https://img.shields.io/badge/✓_Pipeline_Schema_%26_Validation-2ea043?style=for-the-badge" alt="Pipeline Schema"> <br>
-<a href="https://github.com/Lab-Hit/.github/blob/main/SECURITY.md"><img width="280" src="https://img.shields.io/badge/✓_Security_Disclosure_Policy-2ea043?style=for-the-badge" alt="Security Policy"></a> <br><br>
+<a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/✓_Pipeline_Specification-2ea043?style=flat-square" alt="Pipeline Spec"></a> <br>
+<a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/✓_Extension_Interface_(WIT)-2ea043?style=flat-square" alt="WIT Interface"></a> <br>
+<img src="https://img.shields.io/badge/✓_Pipeline_Schema_%26_Validation-2ea043?style=flat-square" alt="Pipeline Schema"> <br>
+<a href="https://github.com/Lab-Hit/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/✓_Security_Disclosure_Policy-2ea043?style=flat-square" alt="Security Policy"></a> <br><br>
 <sub><b>COMPLETED</b></sub> <br><br>
-<img width="280" src="https://img.shields.io/badge/✓_Extension_Naming_Convention-2ea043?style=for-the-badge" alt="Extension Naming"> <br>
-<img width="280" src="https://img.shields.io/badge/✓_DAG_Pipeline_Scheduler-2ea043?style=for-the-badge" alt="DAG Scheduler"> <br>
-<img width="280" src="https://img.shields.io/badge/✓_WASM_Sandbox_Model-2ea043?style=for-the-badge" alt="WASM Sandbox"> <br>
-<img width="280" src="https://img.shields.io/badge/✓_CLI_Interface_Design-2ea043?style=for-the-badge" alt="CLI Design">
+<img src="https://img.shields.io/badge/✓_Extension_Naming_Convention-2ea043?style=flat-square" alt="Extension Naming"> <br>
+<img src="https://img.shields.io/badge/✓_DAG_Pipeline_Scheduler-2ea043?style=flat-square" alt="DAG Scheduler"> <br>
+<img src="https://img.shields.io/badge/✓_WASM_Sandbox_Model-2ea043?style=flat-square" alt="WASM Sandbox"> <br>
+<img src="https://img.shields.io/badge/✓_CLI_Interface_Design-2ea043?style=flat-square" alt="CLI Design">
 
 <br><br>
 
@@ -125,9 +125,9 @@ stages:
 <br>
 
 <sub><b>IN PROGRESS</b></sub> <br><br>
-<img width="280" src="https://img.shields.io/badge/◆_Developer_Documentation-d29922?style=for-the-badge" alt="Developer Docs"> <br>
-<img width="280" src="https://img.shields.io/badge/◆_Extension_Development_Kit-d29922?style=for-the-badge" alt="Extension SDK"> <br>
-<img width="280" src="https://img.shields.io/badge/◆_Pipeline_Execution_Engine-d29922?style=for-the-badge" alt="Execution Engine">
+<img src="https://img.shields.io/badge/◆_Developer_Documentation-d29922?style=flat-square" alt="Developer Docs"> <br>
+<img src="https://img.shields.io/badge/◆_Extension_Development_Kit-d29922?style=flat-square" alt="Extension SDK"> <br>
+<img src="https://img.shields.io/badge/◆_Pipeline_Execution_Engine-d29922?style=flat-square" alt="Execution Engine">
 
 <br><br>
 
@@ -137,7 +137,7 @@ stages:
 <br>
 
 <sub><b>PLANNED</b></sub> <br><br>
-<img width="280" src="https://img.shields.io/badge/○_Container_Execution_Backend-6e7681?style=for-the-badge" alt="Container Backend">
+<img src="https://img.shields.io/badge/○_Container_Execution_Backend-6e7681?style=flat-square" alt="Container Backend">
 
 <br><br>
 

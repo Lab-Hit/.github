@@ -87,6 +87,27 @@ stages:
 
 ---
 
+### Progress
+
+Built in the open. Shipped when ready.
+
+| Milestone | Status |
+|-----------|--------|
+| Pipeline specification published | :green_circle: Done |
+| Extension interface published (WIT) | :green_circle: Done |
+| Pipeline schema & validation | :green_circle: Done |
+| Extension naming convention | :green_circle: Done |
+| DAG pipeline scheduler | :green_circle: Done |
+| WASM sandbox model | :green_circle: Done |
+| CLI interface designed | :green_circle: Done |
+| Security disclosure policy | :green_circle: Done |
+| Developer documentation | :yellow_circle: Building |
+| Extension development kit | :yellow_circle: Building |
+| Pipeline execution engine | :yellow_circle: Building |
+| Container execution backend | :white_circle: Next |
+
+---
+
 <p align="center">
   <a href="https://labhit.dev"><b>Website</b></a>
   &nbsp;&nbsp;&middot;&nbsp;&nbsp;

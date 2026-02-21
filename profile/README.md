@@ -87,24 +87,43 @@ stages:
 
 ---
 
-### Progress
+<h3 align="center">:chart_with_upwards_trend: &nbsp; Progress</h3>
 
-Built in the open. Shipped when ready.
+<p align="center"><i>Built in the open. Shipped when ready.</i></p>
 
-| Milestone | Status |
-|-----------|--------|
-| Pipeline specification published | :green_circle: Done |
-| Extension interface published (WIT) | :green_circle: Done |
-| Pipeline schema & validation | :green_circle: Done |
-| Extension naming convention | :green_circle: Done |
-| DAG pipeline scheduler | :green_circle: Done |
-| WASM sandbox model | :green_circle: Done |
-| CLI interface designed | :green_circle: Done |
-| Security disclosure policy | :green_circle: Done |
-| Developer documentation | :yellow_circle: Building |
-| Extension development kit | :yellow_circle: Building |
-| Pipeline execution engine | :yellow_circle: Building |
-| Container execution backend | :white_circle: Next |
+<table>
+<tr>
+<td width="50%">
+
+**:white_check_mark: &nbsp; Shipped**
+
+&nbsp;&nbsp; ![](https://img.shields.io/badge/Pipeline_Specification-Published-2ea043?style=flat-square) <br>
+&nbsp;&nbsp; ![](https://img.shields.io/badge/Extension_Interface_(WIT)-Published-2ea043?style=flat-square) <br>
+&nbsp;&nbsp; ![](https://img.shields.io/badge/Pipeline_Schema_&_Validation-Done-2ea043?style=flat-square) <br>
+&nbsp;&nbsp; ![](https://img.shields.io/badge/Extension_Naming_Convention-Done-2ea043?style=flat-square) <br>
+&nbsp;&nbsp; ![](https://img.shields.io/badge/DAG_Pipeline_Scheduler-Done-2ea043?style=flat-square) <br>
+&nbsp;&nbsp; ![](https://img.shields.io/badge/WASM_Sandbox_Model-Done-2ea043?style=flat-square) <br>
+&nbsp;&nbsp; ![](https://img.shields.io/badge/CLI_Interface-Designed-2ea043?style=flat-square) <br>
+&nbsp;&nbsp; ![](https://img.shields.io/badge/Security_Disclosure_Policy-Published-2ea043?style=flat-square)
+
+</td>
+<td width="50%">
+
+**:hammer_and_wrench: &nbsp; Building**
+
+&nbsp;&nbsp; ![](https://img.shields.io/badge/Developer_Documentation-In_Progress-d29922?style=flat-square) <br>
+&nbsp;&nbsp; ![](https://img.shields.io/badge/Extension_Development_Kit-In_Progress-d29922?style=flat-square) <br>
+&nbsp;&nbsp; ![](https://img.shields.io/badge/Pipeline_Execution_Engine-In_Progress-d29922?style=flat-square)
+
+<br>
+
+**:compass: &nbsp; Next**
+
+&nbsp;&nbsp; ![](https://img.shields.io/badge/Container_Execution_Backend-Planned-6e7681?style=flat-square)
+
+</td>
+</tr>
+</table>
 
 ---
 

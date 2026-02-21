@@ -107,15 +107,15 @@ stages:
 <br>
 
 <sub><b>PUBLISHED</b></sub> <br><br>
-<a href="https://github.com/Lab-Hit/labhit-spec"><img width="260" src="https://img.shields.io/badge/Pipeline_Specification-✓_Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="Pipeline Spec"></a> <br><br>
-<a href="https://github.com/Lab-Hit/labhit-spec"><img width="260" src="https://img.shields.io/badge/Extension_Interface_(WIT)-✓_Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="WIT Interface"></a> <br><br>
-<img width="260" src="https://img.shields.io/badge/Pipeline_Schema_%26_Validation-✓_Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="Pipeline Schema"> <br><br>
-<a href="https://github.com/Lab-Hit/.github/blob/main/SECURITY.md"><img width="260" src="https://img.shields.io/badge/Security_Disclosure_Policy-✓_Published-2ea043?style=for-the-badge&labelColor=1a2332" alt="Security Policy"></a> <br><br>
+<a href="https://github.com/Lab-Hit/labhit-spec"><img width="280" src="https://img.shields.io/badge/✓_Pipeline_Specification-2ea043?style=for-the-badge" alt="Pipeline Spec"></a> <br>
+<a href="https://github.com/Lab-Hit/labhit-spec"><img width="280" src="https://img.shields.io/badge/✓_Extension_Interface_(WIT)-2ea043?style=for-the-badge" alt="WIT Interface"></a> <br>
+<img width="280" src="https://img.shields.io/badge/✓_Pipeline_Schema_%26_Validation-2ea043?style=for-the-badge" alt="Pipeline Schema"> <br>
+<a href="https://github.com/Lab-Hit/.github/blob/main/SECURITY.md"><img width="280" src="https://img.shields.io/badge/✓_Security_Disclosure_Policy-2ea043?style=for-the-badge" alt="Security Policy"></a> <br><br>
 <sub><b>COMPLETED</b></sub> <br><br>
-<img width="260" src="https://img.shields.io/badge/Extension_Naming_Convention-✓_Complete-2ea043?style=for-the-badge&labelColor=1a2332" alt="Extension Naming"> <br><br>
-<img width="260" src="https://img.shields.io/badge/DAG_Pipeline_Scheduler-✓_Complete-2ea043?style=for-the-badge&labelColor=1a2332" alt="DAG Scheduler"> <br><br>
-<img width="260" src="https://img.shields.io/badge/WASM_Sandbox_Model-✓_Complete-2ea043?style=for-the-badge&labelColor=1a2332" alt="WASM Sandbox"> <br><br>
-<img width="260" src="https://img.shields.io/badge/CLI_Interface_Design-✓_Complete-2ea043?style=for-the-badge&labelColor=1a2332" alt="CLI Design">
+<img width="280" src="https://img.shields.io/badge/✓_Extension_Naming_Convention-2ea043?style=for-the-badge" alt="Extension Naming"> <br>
+<img width="280" src="https://img.shields.io/badge/✓_DAG_Pipeline_Scheduler-2ea043?style=for-the-badge" alt="DAG Scheduler"> <br>
+<img width="280" src="https://img.shields.io/badge/✓_WASM_Sandbox_Model-2ea043?style=for-the-badge" alt="WASM Sandbox"> <br>
+<img width="280" src="https://img.shields.io/badge/✓_CLI_Interface_Design-2ea043?style=for-the-badge" alt="CLI Design">
 
 <br><br>
 
@@ -125,9 +125,9 @@ stages:
 <br>
 
 <sub><b>IN PROGRESS</b></sub> <br><br>
-<img width="260" src="https://img.shields.io/badge/Developer_Documentation-◆_Building-d29922?style=for-the-badge&labelColor=1a2332" alt="Developer Docs"> <br><br>
-<img width="260" src="https://img.shields.io/badge/Extension_Development_Kit-◆_Building-d29922?style=for-the-badge&labelColor=1a2332" alt="Extension SDK"> <br><br>
-<img width="260" src="https://img.shields.io/badge/Pipeline_Execution_Engine-◆_Building-d29922?style=for-the-badge&labelColor=1a2332" alt="Execution Engine">
+<img width="280" src="https://img.shields.io/badge/◆_Developer_Documentation-d29922?style=for-the-badge" alt="Developer Docs"> <br>
+<img width="280" src="https://img.shields.io/badge/◆_Extension_Development_Kit-d29922?style=for-the-badge" alt="Extension SDK"> <br>
+<img width="280" src="https://img.shields.io/badge/◆_Pipeline_Execution_Engine-d29922?style=for-the-badge" alt="Execution Engine">
 
 <br><br>
 
@@ -137,7 +137,7 @@ stages:
 <br>
 
 <sub><b>PLANNED</b></sub> <br><br>
-<img width="260" src="https://img.shields.io/badge/Container_Execution_Backend-○_Planned-6e7681?style=for-the-badge&labelColor=1a2332" alt="Container Backend">
+<img width="280" src="https://img.shields.io/badge/○_Container_Execution_Backend-6e7681?style=for-the-badge" alt="Container Backend">
 
 <br><br>
 

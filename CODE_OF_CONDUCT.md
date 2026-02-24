@@ -18,7 +18,7 @@ We expect all participants to:
 
 ## Enforcement
 
-Instances of unacceptable behavior may be reported to conduct@labhit.io.
+Instances of unacceptable behavior may be reported to contact@labhit.dev.
 
 All complaints will be reviewed and investigated. Maintainers have the right to
 remove, edit, or reject comments, commits, code, issues, and other contributions

@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-Report security vulnerabilities to **security@labhit.io**.
+Report security vulnerabilities to **security@labhit.dev**.
 
 Do not open a public GitHub issue for security vulnerabilities.
 

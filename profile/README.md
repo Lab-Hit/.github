@@ -150,4 +150,6 @@ stages:
   <a href="https://github.com/Lab-Hit/.github/blob/main/SECURITY.md"><b>Security</b></a>
   &nbsp;&nbsp;&middot;&nbsp;&nbsp;
   <a href="https://github.com/Lab-Hit/labhit-spec/blob/main/LICENSE"><b>License</b></a>
+  &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+  <a href="mailto:hello@labhit.dev"><b>Contact</b></a>
 </p>

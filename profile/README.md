@@ -70,17 +70,14 @@ stages:
       dockerfile: Dockerfile
 
   scan:
-    after: [build]
+    after: [test]
     use: scan/trivy
-    with:
-      fail_on: [critical, high]
 
   deploy:
     after: [build, scan]
     use: deploy/kubernetes
     gate:
       approval: required
-      policy: production-deploy
 ```
 
 > Extensions use the `category/name` convention. The [specification](https://github.com/Lab-Hit/labhit-spec) defines the interface contract — WIT types, gRPC services, and the pipeline JSON Schema.

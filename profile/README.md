@@ -93,7 +93,7 @@ stages:
 <table width="100%">
 <thead>
 <tr>
-<th align="center" width="33%">:white_check_mark: &nbsp; Shipped &nbsp; <code>12</code></th>
+<th align="center" width="33%">:white_check_mark: &nbsp; Shipped &nbsp; <code>13</code></th>
 <th align="center" width="34%">:hammer_and_wrench: &nbsp; Building &nbsp; <code>2</code></th>
 <th align="center" width="33%">:compass: &nbsp; Next &nbsp; <code>1</code></th>
 </tr>
@@ -115,7 +115,8 @@ stages:
 <img src="https://img.shields.io/badge/✓_Pipeline_Execution_Engine-2ea043?style=flat-square" alt="Execution Engine"> <br>
 <img src="https://img.shields.io/badge/✓_Container_Execution_Backend-2ea043?style=flat-square" alt="Container Backend"> <br>
 <img src="https://img.shields.io/badge/✓_Event_Bus_Integration-2ea043?style=flat-square" alt="Event Bus"> <br>
-<img src="https://img.shields.io/badge/✓_Policy_Engine-2ea043?style=flat-square" alt="Policy Engine">
+<img src="https://img.shields.io/badge/✓_Policy_Engine-2ea043?style=flat-square" alt="Policy Engine"> <br>
+<img src="https://img.shields.io/badge/✓_WASM_Plugin_Loading-2ea043?style=flat-square" alt="WASM Plugin Loading">
 </p>
 
 </td>
@@ -132,7 +133,7 @@ stages:
 
 <p align="center">
 <sub><b>PLANNED</b></sub> <br><br>
-<img src="https://img.shields.io/badge/○_WASM_Plugin_Loading-6e7681?style=flat-square" alt="WASM Plugin Loading">
+<img src="https://img.shields.io/badge/○_Extension_Developer_Guide-6e7681?style=flat-square" alt="Extension Developer Guide">
 </p>
 
 </td>

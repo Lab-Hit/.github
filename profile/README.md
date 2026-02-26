@@ -93,9 +93,9 @@ stages:
 <table width="100%">
 <thead>
 <tr>
-<th align="center" width="33%">:white_check_mark: &nbsp; Shipped &nbsp; <code>13</code></th>
+<th align="center" width="33%">:white_check_mark: &nbsp; Shipped &nbsp; <code>15</code></th>
 <th align="center" width="34%">:hammer_and_wrench: &nbsp; Building &nbsp; <code>4</code></th>
-<th align="center" width="33%">:compass: &nbsp; Next &nbsp; <code>7</code></th>
+<th align="center" width="33%">:compass: &nbsp; Next &nbsp; <code>6</code></th>
 </tr>
 </thead>
 <tr>
@@ -116,7 +116,9 @@ stages:
 <img src="https://img.shields.io/badge/✓_Container_Execution_Backend-2ea043?style=flat-square" alt="Container Backend"> <br>
 <img src="https://img.shields.io/badge/✓_Event_Bus_Integration-2ea043?style=flat-square" alt="Event Bus"> <br>
 <img src="https://img.shields.io/badge/✓_Policy_Engine-2ea043?style=flat-square" alt="Policy Engine"> <br>
-<img src="https://img.shields.io/badge/✓_WASM_Plugin_Loading-2ea043?style=flat-square" alt="WASM Plugin Loading">
+<img src="https://img.shields.io/badge/✓_WASM_Plugin_Loading-2ea043?style=flat-square" alt="WASM Plugin Loading"> <br>
+<img src="https://img.shields.io/badge/✓_GraphQL_API_Server-2ea043?style=flat-square" alt="GraphQL API"> <br>
+<img src="https://img.shields.io/badge/✓_Extension_Developer_Guide-2ea043?style=flat-square" alt="Extension Developer Guide">
 </p>
 
 </td>
@@ -127,7 +129,7 @@ stages:
 <img src="https://img.shields.io/badge/◆_Developer_Documentation-d29922?style=flat-square" alt="Developer Docs"> <br>
 <img src="https://img.shields.io/badge/◆_Extension_Development_Kit-d29922?style=flat-square" alt="Extension SDK"> <br>
 <img src="https://img.shields.io/badge/◆_Extension_Signing-d29922?style=flat-square" alt="Extension Signing"> <br>
-<img src="https://img.shields.io/badge/◆_Pipeline_YAML_Reference-d29922?style=flat-square" alt="Pipeline YAML Reference">
+<img src="https://img.shields.io/badge/◆_Secret_Management-d29922?style=flat-square" alt="Secret Management">
 </p>
 
 </td>
@@ -138,9 +140,8 @@ stages:
 <img src="https://img.shields.io/badge/○_Distributed_Scheduling-6e7681?style=flat-square" alt="Distributed Scheduling"> <br>
 <img src="https://img.shields.io/badge/○_Pipeline_Caching-6e7681?style=flat-square" alt="Pipeline Caching"> <br>
 <img src="https://img.shields.io/badge/○_Extension_Marketplace-6e7681?style=flat-square" alt="Extension Marketplace"> <br>
-<img src="https://img.shields.io/badge/○_Secret_Management-6e7681?style=flat-square" alt="Secret Management"> <br>
 <img src="https://img.shields.io/badge/○_Audit_Logging-6e7681?style=flat-square" alt="Audit Logging"> <br>
-<img src="https://img.shields.io/badge/○_Extension_Developer_Guide-6e7681?style=flat-square" alt="Extension Developer Guide"> <br>
+<img src="https://img.shields.io/badge/○_Pipeline_YAML_Reference-6e7681?style=flat-square" alt="Pipeline YAML Reference"> <br>
 <img src="https://img.shields.io/badge/○_Example_Pipeline_Library-6e7681?style=flat-square" alt="Example Pipeline Library">
 </p>
 

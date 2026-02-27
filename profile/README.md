@@ -5,46 +5,79 @@
 </p>
 
 <p align="center">
-  <a href="https://labhit.dev"><img src="https://img.shields.io/badge/labhit.dev-4F46E5?style=for-the-badge&logoColor=white" alt="Website"></a>
+  <a href="https://labhit.dev"><img src="https://img.shields.io/badge/labhit.dev-4F8EF7?style=for-the-badge&logoColor=white" alt="Website"></a>
   &nbsp;
   <a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/Specification-181717?style=for-the-badge&logo=github&logoColor=white" alt="Spec"></a>
   &nbsp;
   <a href="https://github.com/Lab-Hit/labhit-spec/blob/main/LICENSE"><img src="https://img.shields.io/badge/Apache_2.0-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="License"></a>
+  &nbsp;
+  <a href="https://github.com/Lab-Hit/labhit-spec/stargazers"><img src="https://img.shields.io/github/stars/Lab-Hit/labhit-spec?style=for-the-badge&logo=github&color=e3b341&logoColor=white" alt="Stars"></a>
 </p>
 
+<br>
+
+<p align="center">
+  <em>"The engine should be invisible. The extensions should be infinite."</em>
+</p>
+
+<p align="center">
+  LabHit is a <b>modular CI/CD engine</b> written in Rust. A minimal core handles scheduling, isolation, and policy.<br>
+  Everything else — source control, builds, scans, deployments — is a sandboxed WASM extension you install at will.
+</p>
+
+<br>
+
 ---
+
+<br>
 
 <table>
 <tr>
 <td align="center" width="33%">
 
-### :gear: Modular
+### :gear: &nbsp; Modular Core
 
-The engine ships with **zero built-in integrations**. Install `source/git` for checkout, `build/container` for builds, `scan/trivy` for security. Your pipeline has exactly what it needs — nothing more.
-
-</td>
-<td align="center" width="33%">
-
-### :shield: Sandboxed
-
-Every extension runs in a **WASM sandbox** with deny-by-default permissions. Scoped filesystem, network allowlists, capped memory and CPU. A bad plugin cannot touch the host.
+The engine ships with **zero built-in integrations**. Install `source/git` for checkout, `build/container` for builds, `scan/trivy` for security scans. Your pipeline has exactly what it needs — nothing more.
 
 </td>
 <td align="center" width="33%">
 
-### :package: Portable
+### :shield: &nbsp; Secure by Default
 
-**One binary, three modes.** Run on your laptop with embedded storage, scale to a standalone server, or deploy a full cluster. Same config, same extensions, same results.
+Every extension runs in a **WASM sandbox** with deny-by-default permissions. Scoped filesystem access, network allowlists, capped memory and CPU. A bad plugin cannot touch the host.
+
+</td>
+<td align="center" width="33%">
+
+### :package: &nbsp; One Binary
+
+**Three modes from a single binary.** Run on your laptop with embedded storage, scale to a standalone server, or deploy a full cluster. Same config, same extensions, same results everywhere.
 
 </td>
 </tr>
 </table>
 
+<br>
+
+---
+
+### How it works
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Lab-Hit/.github/main/profile/architecture.svg" alt="LabHit Architecture" width="100%">
+</p>
+
+You define your pipeline in YAML. The engine parses it, builds a dependency graph (DAG), and runs independent stages in parallel. Each stage either calls a WASM extension (`use`) or runs a shell command (`run`) inside a container sandbox.
+
+Policy gates can block stages until approval conditions are met. Every event is published to the event bus for observability and integrations.
+
+<br>
+
 ---
 
 ### Pipeline format
 
-Stages declare **what** to run (`use` an extension or `run` a command), **when** to run (`after` dependencies), and **how** to run (inside a `sandbox`). The scheduler builds a DAG and runs independent stages in parallel.
+Stages declare **what** to run, **when** to run, and **how** to run. The scheduler figures out the rest.
 
 ```yaml
 engine: "1"
@@ -80,7 +113,49 @@ stages:
       approval: required
 ```
 
-> Extensions use the `category/name` convention. The [specification](https://github.com/Lab-Hit/labhit-spec) defines the interface contract — WIT types, gRPC services, and the pipeline JSON Schema.
+> **`use`** loads a WASM extension &nbsp;·&nbsp; **`run`** executes a shell command &nbsp;·&nbsp; **`after`** declares dependencies &nbsp;·&nbsp; **`sandbox`** sets the container image &nbsp;·&nbsp; **`gate`** enforces policy checks
+>
+> Extensions follow the `category/name` convention. The [specification](https://github.com/Lab-Hit/labhit-spec) defines the full interface contract.
+
+<br>
+
+---
+
+<h3 align="center">At a Glance</h3>
+
+<br>
+
+<table width="100%">
+<tr>
+<td align="center" width="20%">
+<h3>:hammer_and_wrench:</h3>
+<b>Rust</b><br>
+<sub>Core engine</sub>
+</td>
+<td align="center" width="20%">
+<h3>:jigsaw:</h3>
+<b>WASM</b><br>
+<sub>Extension runtime</sub>
+</td>
+<td align="center" width="20%">
+<h3>:notebook:</h3>
+<b>GraphQL</b><br>
+<sub>External API</sub>
+</td>
+<td align="center" width="20%">
+<h3>:lock:</h3>
+<b>Deny-by-default</b><br>
+<sub>Security model</sub>
+</td>
+<td align="center" width="20%">
+<h3>:balance_scale:</h3>
+<b>Apache 2.0</b><br>
+<sub>Open core</sub>
+</td>
+</tr>
+</table>
+
+<br>
 
 ---
 
@@ -149,6 +224,50 @@ stages:
 </tr>
 </table>
 
+<br>
+
+---
+
+<h3 align="center">:bell: &nbsp; Stay Updated</h3>
+
+<p align="center">LabHit is approaching its public launch. Here's how to follow along:</p>
+
+<br>
+
+<table width="100%">
+<tr>
+<td align="center" width="33%">
+
+**:star: Star the Spec**
+
+Be the first to know when the engine goes public.
+
+<a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/Star_labhit--spec-181717?style=for-the-badge&logo=github&logoColor=white" alt="Star"></a>
+
+</td>
+<td align="center" width="33%">
+
+**:eyes: Watch Releases**
+
+Get notified for every milestone and release.
+
+<a href="https://github.com/Lab-Hit/labhit-spec/subscription"><img src="https://img.shields.io/badge/Watch_for_Releases-181717?style=for-the-badge&logo=github&logoColor=white" alt="Watch"></a>
+
+</td>
+<td align="center" width="33%">
+
+**:mailbox_with_mail: Get Launch Updates**
+
+One email when we launch. No spam, ever.
+
+<a href="mailto:hello@labhit.dev?subject=LabHit%20Launch%20Updates&body=Hi%20%E2%80%94%20I%27d%20like%20to%20be%20notified%20when%20LabHit%20launches.%0A%0AName%3A%20%0AGitHub%3A%20%40"><img src="https://img.shields.io/badge/Email_hello%40labhit.dev-4F8EF7?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Email"></a>
+
+</td>
+</tr>
+</table>
+
+<br>
+
 ---
 
 <p align="center">
@@ -161,4 +280,8 @@ stages:
   <a href="https://github.com/Lab-Hit/labhit-spec/blob/main/LICENSE"><b>License</b></a>
   &nbsp;&nbsp;&middot;&nbsp;&nbsp;
   <a href="mailto:hello@labhit.dev"><b>Contact</b></a>
+</p>
+
+<p align="center">
+  <sub>Built with Rust :crab: &nbsp;&middot;&nbsp; Secured with WASM :lock: &nbsp;&middot;&nbsp; Licensed under Apache 2.0</sub>
 </p>

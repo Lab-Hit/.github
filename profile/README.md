@@ -125,35 +125,17 @@ stages:
 
 <br>
 
-<table width="100%">
-<tr>
-<td align="center" width="20%">
-<h3>:hammer_and_wrench:</h3>
-<b>Rust</b><br>
-<sub>Core engine</sub>
-</td>
-<td align="center" width="20%">
-<h3>:jigsaw:</h3>
-<b>WASM</b><br>
-<sub>Extension runtime</sub>
-</td>
-<td align="center" width="20%">
-<h3>:notebook:</h3>
-<b>GraphQL</b><br>
-<sub>External API</sub>
-</td>
-<td align="center" width="20%">
-<h3>:lock:</h3>
-<b>Deny-by-default</b><br>
-<sub>Security model</sub>
-</td>
-<td align="center" width="20%">
-<h3>:balance_scale:</h3>
-<b>Apache 2.0</b><br>
-<sub>Open core</sub>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/Core_Engine-Rust-DE6E34?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Extensions-WASM-654FF0?style=for-the-badge&logo=webassembly&logoColor=white" alt="WASM">
+  &nbsp;
+  <img src="https://img.shields.io/badge/API-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Security-Deny_by_Default-2ea043?style=for-the-badge&logoColor=white" alt="Security">
+  &nbsp;
+  <img src="https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache 2.0">
+</p>
 
 <br>
 
@@ -230,7 +212,7 @@ stages:
 
 <h3 align="center">:bell: &nbsp; Stay Updated</h3>
 
-<p align="center">LabHit is approaching its public launch. Here's how to follow along:</p>
+<p align="center">LabHit is in <b>pre-launch</b> — the core engine is built, and we're preparing for public release. Get early access:</p>
 
 <br>
 

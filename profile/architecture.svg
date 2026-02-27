@@ -5,40 +5,12 @@
       <stop offset="50%" stop-color="#111827"/>
       <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
-    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#4f8ef7"/>
-      <stop offset="100%" stop-color="#3b7de0"/>
-    </linearGradient>
-    <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#8b3dd4"/>
-    </linearGradient>
-    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3fb950"/>
-      <stop offset="100%" stop-color="#2ea043"/>
-    </linearGradient>
-    <linearGradient id="amber" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#e08a3c"/>
-      <stop offset="100%" stop-color="#c87030"/>
-    </linearGradient>
     <linearGradient id="accent-bar" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#4f8ef7"/>
       <stop offset="33%" stop-color="#a855f7"/>
       <stop offset="66%" stop-color="#ec4899"/>
       <stop offset="100%" stop-color="#4f8ef7"/>
     </linearGradient>
-    <filter id="glow-blue">
-      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#4f8ef7" flood-opacity="0.25"/>
-    </filter>
-    <filter id="glow-purple">
-      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#a855f7" flood-opacity="0.25"/>
-    </filter>
-    <filter id="glow-green">
-      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#3fb950" flood-opacity="0.25"/>
-    </filter>
-    <filter id="glow-amber">
-      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#e08a3c" flood-opacity="0.25"/>
-    </filter>
   </defs>
 
   <!-- Background -->
@@ -46,11 +18,10 @@
   <rect width="900" height="3" fill="url(#accent-bar)" rx="1.5"/>
 
   <!-- Title -->
-  <text x="450" y="42" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#6e7681" letter-spacing="4" text-transform="uppercase">ARCHITECTURE</text>
+  <text x="450" y="42" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#6e7681" letter-spacing="4">ARCHITECTURE</text>
 
-  <!-- Top row: Pipeline → Parser → Scheduler → Runtime -->
   <!-- Box 1: Pipeline YAML -->
-  <rect x="40" y="70" width="160" height="72" rx="10" fill="rgba(79,142,247,0.08)" stroke="rgba(79,142,247,0.3)" stroke-width="1.5" filter="url(#glow-blue)"/>
+  <rect x="40" y="70" width="160" height="72" rx="10" fill="#111d33" stroke="#2a5090" stroke-width="1.5"/>
   <text x="120" y="100" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#4f8ef7" letter-spacing="0.5">PIPELINE</text>
   <text x="120" y="120" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">YAML Definition</text>
 
@@ -59,7 +30,7 @@
   <polygon points="240,101 252,106 240,111" fill="#4f8ef7"/>
 
   <!-- Box 2: DAG Scheduler -->
-  <rect x="255" y="70" width="160" height="72" rx="10" fill="rgba(79,142,247,0.08)" stroke="rgba(79,142,247,0.3)" stroke-width="1.5" filter="url(#glow-blue)"/>
+  <rect x="255" y="70" width="160" height="72" rx="10" fill="#111d33" stroke="#2a5090" stroke-width="1.5"/>
   <text x="335" y="100" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#4f8ef7" letter-spacing="0.5">DAG</text>
   <text x="335" y="120" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Scheduler</text>
 
@@ -68,7 +39,7 @@
   <polygon points="455,101 467,106 455,111" fill="#a855f7"/>
 
   <!-- Box 3: Extension Runtime -->
-  <rect x="470" y="70" width="180" height="72" rx="10" fill="rgba(168,85,247,0.08)" stroke="rgba(168,85,247,0.3)" stroke-width="1.5" filter="url(#glow-purple)"/>
+  <rect x="470" y="70" width="180" height="72" rx="10" fill="#1a1133" stroke="#5a3090" stroke-width="1.5"/>
   <text x="560" y="100" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#a855f7" letter-spacing="0.5">WASM</text>
   <text x="560" y="120" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Extension Runtime</text>
 
@@ -77,11 +48,10 @@
   <polygon points="690,101 702,106 690,111" fill="#3fb950"/>
 
   <!-- Box 4: Results -->
-  <rect x="705" y="70" width="155" height="72" rx="10" fill="rgba(63,185,80,0.08)" stroke="rgba(63,185,80,0.3)" stroke-width="1.5" filter="url(#glow-green)"/>
+  <rect x="705" y="70" width="155" height="72" rx="10" fill="#0f1f15" stroke="#1e7030" stroke-width="1.5"/>
   <text x="782" y="100" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#3fb950" letter-spacing="0.5">OUTPUT</text>
   <text x="782" y="120" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Results &amp; Events</text>
 
-  <!-- Bottom row: supporting systems -->
   <!-- Vertical connector from Scheduler down -->
   <line x1="335" y1="142" x2="335" y2="178" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4,3"/>
 
@@ -89,16 +59,16 @@
   <line x1="560" y1="142" x2="560" y2="178" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4,3"/>
 
   <!-- Bottom Box 1: Policy Engine -->
-  <rect x="255" y="180" width="160" height="64" rx="10" fill="rgba(224,138,60,0.08)" stroke="rgba(224,138,60,0.3)" stroke-width="1.5" filter="url(#glow-amber)"/>
+  <rect x="255" y="180" width="160" height="64" rx="10" fill="#221a10" stroke="#805020" stroke-width="1.5"/>
   <text x="335" y="206" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e08a3c" letter-spacing="0.5">GATE</text>
   <text x="335" y="226" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Policy Engine</text>
 
   <!-- Bottom Box 2: Container Sandbox -->
-  <rect x="470" y="180" width="180" height="64" rx="10" fill="rgba(224,138,60,0.08)" stroke="rgba(224,138,60,0.3)" stroke-width="1.5" filter="url(#glow-amber)"/>
+  <rect x="470" y="180" width="180" height="64" rx="10" fill="#221a10" stroke="#805020" stroke-width="1.5"/>
   <text x="560" y="206" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e08a3c" letter-spacing="0.5">ISOLATION</text>
   <text x="560" y="226" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Container Sandbox</text>
 
-  <!-- Extensions label at bottom -->
-  <rect x="140" y="272" width="620" height="32" rx="8" fill="rgba(168,85,247,0.06)" stroke="rgba(168,85,247,0.15)" stroke-width="1"/>
-  <text x="450" y="293" text-anchor="middle" font-family="SF Mono, Fira Code, Cascadia Code, monospace" font-size="11" fill="#8b949e">source/git &nbsp; · &nbsp; build/container &nbsp; · &nbsp; scan/trivy &nbsp; · &nbsp; test/junit &nbsp; · &nbsp; deploy/kubernetes &nbsp; · &nbsp; notify/slack &nbsp; · &nbsp; ...</text>
+  <!-- Extensions bar at bottom -->
+  <rect x="140" y="272" width="620" height="32" rx="8" fill="#131025" stroke="#1f1540" stroke-width="1"/>
+  <text x="450" y="293" text-anchor="middle" font-family="SF Mono, Fira Code, Cascadia Code, monospace" font-size="11" fill="#8b949e">source/git  ·  build/container  ·  scan/trivy  ·  test/junit  ·  deploy/kubernetes  ·  ...</text>
 </svg>

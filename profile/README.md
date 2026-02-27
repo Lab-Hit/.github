@@ -12,6 +12,8 @@
   <a href="https://github.com/Lab-Hit/labhit-spec/blob/main/LICENSE"><img src="https://img.shields.io/badge/Apache_2.0-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="License"></a>
   &nbsp;
   <a href="https://github.com/Lab-Hit/labhit-spec/stargazers"><img src="https://img.shields.io/github/stars/Lab-Hit/labhit-spec?style=for-the-badge&logo=github&color=e3b341&logoColor=white" alt="Stars"></a>
+  &nbsp;
+  <a href="https://bsky.app/profile/labhit.dev"><img src="https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" alt="Bluesky"></a>
 </p>
 
 <br>

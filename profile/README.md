@@ -152,30 +152,18 @@ stages:
 
 ---
 
-<h3 align="center">Progress</h3>
-
-<p align="center"><b>Built in the open. Shipped when ready.</b></p>
-
-<br>
-
-<table width="100%">
-<thead>
+<table>
 <tr>
-<th align="center" width="33%">:white_check_mark: &nbsp; Shipped &nbsp; <code>18</code></th>
-<th align="center" width="34%">:hammer_and_wrench: &nbsp; Building &nbsp; <code>4</code></th>
-<th align="center" width="33%">:compass: &nbsp; Next &nbsp; <code>6</code></th>
-</tr>
-</thead>
-<tr>
-<td valign="top">
+<td align="center" width="33%">
 
-<p align="center">
-<sub><b>PUBLISHED</b></sub> <br><br>
+### :white_check_mark: &nbsp; Shipped &nbsp; `18`
+
+Built, tested, and working. Published specs are linked.
+
 <a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/✓_Pipeline_Specification-2ea043?style=flat-square" alt="Pipeline Spec"></a> <br>
 <a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/✓_Extension_Interface_(WIT)-2ea043?style=flat-square" alt="WIT Interface"></a> <br>
 <img src="https://img.shields.io/badge/✓_Pipeline_Schema_%26_Validation-2ea043?style=flat-square" alt="Pipeline Schema"> <br>
-<a href="https://github.com/Lab-Hit/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/✓_Security_Disclosure_Policy-2ea043?style=flat-square" alt="Security Policy"></a> <br><br>
-<sub><b>COMPLETED</b></sub> <br><br>
+<a href="https://github.com/Lab-Hit/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/✓_Security_Disclosure_Policy-2ea043?style=flat-square" alt="Security Policy"></a> <br>
 <img src="https://img.shields.io/badge/✓_Extension_Naming_Convention-2ea043?style=flat-square" alt="Extension Naming"> <br>
 <img src="https://img.shields.io/badge/✓_DAG_Pipeline_Scheduler-2ea043?style=flat-square" alt="DAG Scheduler"> <br>
 <img src="https://img.shields.io/badge/✓_WASM_Sandbox_Model-2ea043?style=flat-square" alt="WASM Sandbox"> <br>
@@ -190,31 +178,32 @@ stages:
 <img src="https://img.shields.io/badge/✓_Persistent_Storage_Layer-2ea043?style=flat-square" alt="Persistent Storage"> <br>
 <img src="https://img.shields.io/badge/✓_Variable_Interpolation-2ea043?style=flat-square" alt="Variable Interpolation"> <br>
 <img src="https://img.shields.io/badge/✓_Security_Test_Suite-2ea043?style=flat-square" alt="Security Tests">
-</p>
 
 </td>
-<td valign="top">
+<td align="center" width="33%">
 
-<p align="center">
-<sub><b>IN PROGRESS</b></sub> <br><br>
+### :hammer_and_wrench: &nbsp; Building &nbsp; `4`
+
+Actively in development. Shipping soon.
+
 <img src="https://img.shields.io/badge/◆_Developer_Documentation-d29922?style=flat-square" alt="Developer Docs"> <br>
 <img src="https://img.shields.io/badge/◆_Extension_Development_Kit-d29922?style=flat-square" alt="Extension SDK"> <br>
 <img src="https://img.shields.io/badge/◆_Extension_Signing-d29922?style=flat-square" alt="Extension Signing"> <br>
 <img src="https://img.shields.io/badge/◆_Secret_Management-d29922?style=flat-square" alt="Secret Management">
-</p>
 
 </td>
-<td valign="top">
+<td align="center" width="33%">
 
-<p align="center">
-<sub><b>PLANNED</b></sub> <br><br>
+### :compass: &nbsp; Next &nbsp; `6`
+
+On the roadmap. Designed but not yet started.
+
 <img src="https://img.shields.io/badge/○_Distributed_Scheduling-6e7681?style=flat-square" alt="Distributed Scheduling"> <br>
 <img src="https://img.shields.io/badge/○_Pipeline_Caching-6e7681?style=flat-square" alt="Pipeline Caching"> <br>
 <img src="https://img.shields.io/badge/○_Extension_Marketplace-6e7681?style=flat-square" alt="Extension Marketplace"> <br>
 <img src="https://img.shields.io/badge/○_Audit_Logging-6e7681?style=flat-square" alt="Audit Logging"> <br>
 <img src="https://img.shields.io/badge/○_Pipeline_YAML_Reference-6e7681?style=flat-square" alt="Pipeline YAML Reference"> <br>
 <img src="https://img.shields.io/badge/○_Example_Pipeline_Library-6e7681?style=flat-square" alt="Example Pipeline Library">
-</p>
 
 </td>
 </tr>

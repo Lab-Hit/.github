@@ -7,6 +7,8 @@
 <p align="center">
   <a href="https://labhit.dev"><img src="https://img.shields.io/badge/labhit.dev-4F8EF7?style=for-the-badge&logoColor=white" alt="Website"></a>
   &nbsp;
+  <a href="https://demo.labhit.dev"><img src="https://img.shields.io/badge/Live_Demo-f59e0b?style=for-the-badge&logoColor=white" alt="Demo"></a>
+  &nbsp;
   <a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/Specification-181717?style=for-the-badge&logo=github&logoColor=white" alt="Spec"></a>
   &nbsp;
   <a href="https://github.com/Lab-Hit/labhit-spec/blob/main/LICENSE"><img src="https://img.shields.io/badge/Apache_2.0-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="License"></a>
@@ -71,7 +73,7 @@ Every extension runs in a **WASM sandbox** with deny-by-default permissions. Sco
 
 You define your pipeline in YAML. The engine parses it, builds a dependency graph (DAG), and runs independent stages in parallel. Each stage either calls a WASM extension (`use`) or runs a shell command (`run`) inside a container sandbox.
 
-Policy gates can block stages until approval conditions are met. Every event is published to the event bus for observability and integrations.
+Policy gates can block stages until approval conditions are met. Every event is published to the event bus for observability and integrations. Pipeline runs are persisted to storage for history and audit.
 
 <br>
 
@@ -79,7 +81,7 @@ Policy gates can block stages until approval conditions are met. Every event is 
 
 ### Pipeline format
 
-Stages declare **what** to run, **when** to run, and **how** to run. The scheduler figures out the rest.
+Stages declare **what** to run, **when** to run, and **how** to run. Variable interpolation connects stage outputs.
 
 ```yaml
 engine: "1"
@@ -90,6 +92,7 @@ stages:
   fetch:
     use: source/git
     with:
+      repo: ${{ var.repo_url }}
       depth: 1
 
   test:
@@ -103,6 +106,7 @@ stages:
     use: build/container
     with:
       dockerfile: Dockerfile
+      tag: ${{ env.REGISTRY }}/${{ var.app_name }}
 
   scan:
     after: [test]
@@ -113,9 +117,14 @@ stages:
     use: deploy/kubernetes
     gate:
       approval: required
+    with:
+      image: ${{ stage.build.output.image_tag }}
+      run_id: ${{ run.id }}
 ```
 
 > **`use`** loads a WASM extension &nbsp;·&nbsp; **`run`** executes a shell command &nbsp;·&nbsp; **`after`** declares dependencies &nbsp;·&nbsp; **`sandbox`** sets the container image &nbsp;·&nbsp; **`gate`** enforces policy checks
+>
+> **`${{ var.* }}`** pipeline variables &nbsp;·&nbsp; **`${{ env.* }}`** environment &nbsp;·&nbsp; **`${{ stage.*.output.* }}`** stage outputs &nbsp;·&nbsp; **`${{ run.* }}`** run context
 >
 > Extensions follow the `category/name` convention. The [specification](https://github.com/Lab-Hit/labhit-spec) defines the full interface contract.
 
@@ -152,7 +161,7 @@ stages:
 <table width="100%">
 <thead>
 <tr>
-<th align="center" width="33%">:white_check_mark: &nbsp; Shipped &nbsp; <code>15</code></th>
+<th align="center" width="33%">:white_check_mark: &nbsp; Shipped &nbsp; <code>18</code></th>
 <th align="center" width="34%">:hammer_and_wrench: &nbsp; Building &nbsp; <code>4</code></th>
 <th align="center" width="33%">:compass: &nbsp; Next &nbsp; <code>6</code></th>
 </tr>
@@ -177,7 +186,10 @@ stages:
 <img src="https://img.shields.io/badge/✓_Policy_Engine-2ea043?style=flat-square" alt="Policy Engine"> <br>
 <img src="https://img.shields.io/badge/✓_WASM_Plugin_Loading-2ea043?style=flat-square" alt="WASM Plugin Loading"> <br>
 <img src="https://img.shields.io/badge/✓_GraphQL_API_Server-2ea043?style=flat-square" alt="GraphQL API"> <br>
-<img src="https://img.shields.io/badge/✓_Extension_Developer_Guide-2ea043?style=flat-square" alt="Extension Developer Guide">
+<img src="https://img.shields.io/badge/✓_Extension_Developer_Guide-2ea043?style=flat-square" alt="Extension Developer Guide"> <br>
+<img src="https://img.shields.io/badge/✓_Persistent_Storage_Layer-2ea043?style=flat-square" alt="Persistent Storage"> <br>
+<img src="https://img.shields.io/badge/✓_Variable_Interpolation-2ea043?style=flat-square" alt="Variable Interpolation"> <br>
+<img src="https://img.shields.io/badge/✓_Security_Test_Suite-2ea043?style=flat-square" alt="Security Tests">
 </p>
 
 </td>
@@ -240,11 +252,11 @@ Get notified for every milestone and release.
 </td>
 <td align="center" width="33%">
 
-**:mailbox_with_mail: Get Launch Updates**
+**:rocket: Try the Demo**
 
-One email when we launch. No spam, ever.
+See the platform in action with live pipeline visualization.
 
-<a href="mailto:hello@labhit.dev?subject=LabHit%20Launch%20Updates&body=Hi%20%E2%80%94%20I%27d%20like%20to%20be%20notified%20when%20LabHit%20launches.%0A%0AName%3A%20%0AGitHub%3A%20%40"><img src="https://img.shields.io/badge/Email_hello%40labhit.dev-4F8EF7?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Email"></a>
+<a href="https://demo.labhit.dev"><img src="https://img.shields.io/badge/demo.labhit.dev-f59e0b?style=for-the-badge&logoColor=white" alt="Demo"></a>
 
 </td>
 </tr>
@@ -256,6 +268,8 @@ One email when we launch. No spam, ever.
 
 <p align="center">
   <a href="https://labhit.dev"><b>Website</b></a>
+  &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+  <a href="https://demo.labhit.dev"><b>Demo</b></a>
   &nbsp;&nbsp;&middot;&nbsp;&nbsp;
   <a href="https://github.com/Lab-Hit/labhit-spec"><b>Specification</b></a>
   &nbsp;&nbsp;&middot;&nbsp;&nbsp;

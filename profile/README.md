@@ -156,7 +156,7 @@ stages:
 <tr>
 <td align="center" width="33%">
 
-### :white_check_mark: &nbsp; Shipped &nbsp; `21`
+### :white_check_mark: &nbsp; Shipped &nbsp; `22`
 
 Built, tested, and working. Published specs are linked.
 
@@ -180,7 +180,8 @@ Built, tested, and working. Published specs are linked.
 <img src="https://img.shields.io/badge/✓_Security_Test_Suite-2ea043?style=flat-square" alt="Security Tests"> <br>
 <img src="https://img.shields.io/badge/✓_Production_API_Deployment-2ea043?style=flat-square" alt="Production Deployment"> <br>
 <img src="https://img.shields.io/badge/✓_Real--time_Log_Streaming-2ea043?style=flat-square" alt="Real-time Log Streaming"> <br>
-<img src="https://img.shields.io/badge/✓_Pipeline_Trigger_UI-2ea043?style=flat-square" alt="Pipeline Trigger UI">
+<img src="https://img.shields.io/badge/✓_Pipeline_Trigger_UI-2ea043?style=flat-square" alt="Pipeline Trigger UI"> <br>
+<img src="https://img.shields.io/badge/✓_User_Authentication_%26_Accounts-2ea043?style=flat-square" alt="User Auth">
 
 </td>
 <td align="center" width="33%">

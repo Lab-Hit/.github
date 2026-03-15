@@ -156,7 +156,7 @@ stages:
 <tr>
 <td align="center" width="33%">
 
-### :white_check_mark: &nbsp; Shipped &nbsp; `22`
+### :white_check_mark: &nbsp; Shipped &nbsp; `23`
 
 Built, tested, and working. Published specs are linked.
 
@@ -204,7 +204,7 @@ On the roadmap. Designed but not yet started.
 
 <img src="https://img.shields.io/badge/○_Distributed_Scheduling-6e7681?style=flat-square" alt="Distributed Scheduling"> <br>
 <img src="https://img.shields.io/badge/○_Pipeline_Caching-6e7681?style=flat-square" alt="Pipeline Caching"> <br>
-<img src="https://img.shields.io/badge/○_Extension_Marketplace-6e7681?style=flat-square" alt="Extension Marketplace"> <br>
+<img src="https://img.shields.io/badge/●_Extension_Marketplace-3fb950?style=flat-square" alt="Extension Marketplace"> <br>
 <img src="https://img.shields.io/badge/○_Audit_Logging-6e7681?style=flat-square" alt="Audit Logging"> <br>
 <img src="https://img.shields.io/badge/○_Pipeline_YAML_Reference-6e7681?style=flat-square" alt="Pipeline YAML Reference"> <br>
 <img src="https://img.shields.io/badge/○_Example_Pipeline_Library-6e7681?style=flat-square" alt="Example Pipeline Library">

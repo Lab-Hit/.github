@@ -181,7 +181,8 @@ Built, tested, and working. Published specs are linked.
 <img src="https://img.shields.io/badge/✓_Production_API_Deployment-2ea043?style=flat-square" alt="Production Deployment"> <br>
 <img src="https://img.shields.io/badge/✓_Real--time_Log_Streaming-2ea043?style=flat-square" alt="Real-time Log Streaming"> <br>
 <img src="https://img.shields.io/badge/✓_Pipeline_Trigger_UI-2ea043?style=flat-square" alt="Pipeline Trigger UI"> <br>
-<img src="https://img.shields.io/badge/✓_User_Authentication_%26_Accounts-2ea043?style=flat-square" alt="User Auth">
+<img src="https://img.shields.io/badge/✓_User_Authentication_%26_Accounts-2ea043?style=flat-square" alt="User Auth"> <br>
+<img src="https://img.shields.io/badge/✓_Extension_Marketplace-2ea043?style=flat-square" alt="Extension Marketplace">
 
 </td>
 <td align="center" width="33%">
@@ -198,13 +199,12 @@ Actively in development. Shipping soon.
 </td>
 <td align="center" width="33%">
 
-### :compass: &nbsp; Next &nbsp; `6`
+### :compass: &nbsp; Next &nbsp; `5`
 
 On the roadmap. Designed but not yet started.
 
 <img src="https://img.shields.io/badge/○_Distributed_Scheduling-6e7681?style=flat-square" alt="Distributed Scheduling"> <br>
 <img src="https://img.shields.io/badge/○_Pipeline_Caching-6e7681?style=flat-square" alt="Pipeline Caching"> <br>
-<img src="https://img.shields.io/badge/●_Extension_Marketplace-3fb950?style=flat-square" alt="Extension Marketplace"> <br>
 <img src="https://img.shields.io/badge/○_Audit_Logging-6e7681?style=flat-square" alt="Audit Logging"> <br>
 <img src="https://img.shields.io/badge/○_Pipeline_YAML_Reference-6e7681?style=flat-square" alt="Pipeline YAML Reference"> <br>
 <img src="https://img.shields.io/badge/○_Example_Pipeline_Library-6e7681?style=flat-square" alt="Example Pipeline Library">

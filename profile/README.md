@@ -21,12 +21,12 @@
 <br>
 
 <p align="center">
-  <em>"The engine should be invisible. The extensions should be infinite."</em>
+  <em>"CI/CD that runs inside the tools you already use."</em>
 </p>
 
 <p align="center">
-  LabHit is a <b>modular CI/CD engine</b> written in Rust. A minimal core handles scheduling, isolation, and policy.<br>
-  Everything else — source control, builds, scans, deployments — is a sandboxed WASM extension you install at will.
+  LabHit adds <b>portable, isolated, policy-checked builds</b> to GitHub and your existing pipelines —<br>
+  the same pipeline, the same result, on any CI and any cloud. Run it as a layer, or run it standalone.
 </p>
 
 <br>
@@ -156,58 +156,41 @@ stages:
 <tr>
 <td align="center" width="33%">
 
-### :white_check_mark: &nbsp; Shipped &nbsp; `23`
+### :white_check_mark: &nbsp; Shipped &nbsp; `7`
 
-Built, tested, and working. Published specs are linked.
+Built, tested, and live in the public beta.
 
-<a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/✓_Pipeline_Specification-2ea043?style=flat-square" alt="Pipeline Spec"></a> <br>
-<a href="https://github.com/Lab-Hit/labhit-spec"><img src="https://img.shields.io/badge/✓_Extension_Interface_(WIT)-2ea043?style=flat-square" alt="WIT Interface"></a> <br>
-<img src="https://img.shields.io/badge/✓_Pipeline_Schema_%26_Validation-2ea043?style=flat-square" alt="Pipeline Schema"> <br>
-<a href="https://github.com/Lab-Hit/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/✓_Security_Disclosure_Policy-2ea043?style=flat-square" alt="Security Policy"></a> <br>
-<img src="https://img.shields.io/badge/✓_Extension_Naming_Convention-2ea043?style=flat-square" alt="Extension Naming"> <br>
-<img src="https://img.shields.io/badge/✓_DAG_Pipeline_Scheduler-2ea043?style=flat-square" alt="DAG Scheduler"> <br>
-<img src="https://img.shields.io/badge/✓_WASM_Sandbox_Model-2ea043?style=flat-square" alt="WASM Sandbox"> <br>
-<img src="https://img.shields.io/badge/✓_CLI_Interface_Design-2ea043?style=flat-square" alt="CLI Design"> <br>
-<img src="https://img.shields.io/badge/✓_Pipeline_Execution_Engine-2ea043?style=flat-square" alt="Execution Engine"> <br>
-<img src="https://img.shields.io/badge/✓_Container_Execution_Backend-2ea043?style=flat-square" alt="Container Backend"> <br>
-<img src="https://img.shields.io/badge/✓_Event_Bus_Integration-2ea043?style=flat-square" alt="Event Bus"> <br>
-<img src="https://img.shields.io/badge/✓_Policy_Engine-2ea043?style=flat-square" alt="Policy Engine"> <br>
-<img src="https://img.shields.io/badge/✓_WASM_Plugin_Loading-2ea043?style=flat-square" alt="WASM Plugin Loading"> <br>
-<img src="https://img.shields.io/badge/✓_GraphQL_API_Server-2ea043?style=flat-square" alt="GraphQL API"> <br>
-<img src="https://img.shields.io/badge/✓_Extension_Developer_Guide-2ea043?style=flat-square" alt="Extension Developer Guide"> <br>
-<img src="https://img.shields.io/badge/✓_Persistent_Storage_Layer-2ea043?style=flat-square" alt="Persistent Storage"> <br>
-<img src="https://img.shields.io/badge/✓_Variable_Interpolation-2ea043?style=flat-square" alt="Variable Interpolation"> <br>
-<img src="https://img.shields.io/badge/✓_Security_Test_Suite-2ea043?style=flat-square" alt="Security Tests"> <br>
-<img src="https://img.shields.io/badge/✓_Production_API_Deployment-2ea043?style=flat-square" alt="Production Deployment"> <br>
-<img src="https://img.shields.io/badge/✓_Real--time_Log_Streaming-2ea043?style=flat-square" alt="Real-time Log Streaming"> <br>
-<img src="https://img.shields.io/badge/✓_Pipeline_Trigger_UI-2ea043?style=flat-square" alt="Pipeline Trigger UI"> <br>
-<img src="https://img.shields.io/badge/✓_User_Authentication_%26_Accounts-2ea043?style=flat-square" alt="User Auth"> <br>
-<img src="https://img.shields.io/badge/✓_Extension_Marketplace-2ea043?style=flat-square" alt="Extension Marketplace">
+<img src="https://img.shields.io/badge/✓_Pipeline_Engine-2ea043?style=flat-square" alt="Pipeline Engine"> <br>
+<img src="https://img.shields.io/badge/✓_Extension_System_%26_Marketplace-2ea043?style=flat-square" alt="Extension System and Marketplace"> <br>
+<img src="https://img.shields.io/badge/✓_Policy_%26_Isolated_Execution-2ea043?style=flat-square" alt="Policy and Isolated Execution"> <br>
+<img src="https://img.shields.io/badge/✓_Live_Build_Logs-2ea043?style=flat-square" alt="Live Build Logs"> <br>
+<img src="https://img.shields.io/badge/✓_Webhooks-2ea043?style=flat-square" alt="Webhooks"> <br>
+<img src="https://img.shields.io/badge/✓_Sign--in_%26_Accounts-2ea043?style=flat-square" alt="Sign-in and Accounts"> <br>
+<img src="https://img.shields.io/badge/✓_Public_Beta_API_%26_Dashboard-2ea043?style=flat-square" alt="Public Beta API and Dashboard">
 
 </td>
 <td align="center" width="33%">
 
-### :hammer_and_wrench: &nbsp; Building &nbsp; `4`
+### :hammer_and_wrench: &nbsp; Building &nbsp; `3`
 
-Actively in development. Shipping soon.
+Run LabHit inside the workflow your team already uses.
 
-<img src="https://img.shields.io/badge/◆_Developer_Documentation-d29922?style=flat-square" alt="Developer Docs"> <br>
-<img src="https://img.shields.io/badge/◆_Extension_Development_Kit-d29922?style=flat-square" alt="Extension SDK"> <br>
-<img src="https://img.shields.io/badge/◆_Extension_Signing-d29922?style=flat-square" alt="Extension Signing"> <br>
-<img src="https://img.shields.io/badge/◆_Secret_Management-d29922?style=flat-square" alt="Secret Management">
+<img src="https://img.shields.io/badge/◆_GitHub_Integration_—_status_checks-d29922?style=flat-square" alt="GitHub Integration"> <br>
+<img src="https://img.shields.io/badge/◆_Connect--your--repo_Flow-d29922?style=flat-square" alt="Connect-your-repo Flow"> <br>
+<img src="https://img.shields.io/badge/◆_Per--repo_Secrets-d29922?style=flat-square" alt="Per-repo Secrets">
 
 </td>
 <td align="center" width="33%">
 
-### :compass: &nbsp; Next &nbsp; `5`
+### :compass: &nbsp; Planned &nbsp; `5`
 
-On the roadmap. Designed but not yet started.
+Bring your existing pipeline, run it anywhere, or standalone.
 
-<img src="https://img.shields.io/badge/○_Distributed_Scheduling-6e7681?style=flat-square" alt="Distributed Scheduling"> <br>
-<img src="https://img.shields.io/badge/○_Pipeline_Caching-6e7681?style=flat-square" alt="Pipeline Caching"> <br>
-<img src="https://img.shields.io/badge/○_Audit_Logging-6e7681?style=flat-square" alt="Audit Logging"> <br>
-<img src="https://img.shields.io/badge/○_Pipeline_YAML_Reference-6e7681?style=flat-square" alt="Pipeline YAML Reference"> <br>
-<img src="https://img.shields.io/badge/○_Example_Pipeline_Library-6e7681?style=flat-square" alt="Example Pipeline Library">
+<img src="https://img.shields.io/badge/○_LabHit_Step_for_Your_Workflow-6e7681?style=flat-square" alt="LabHit Step for Your Workflow"> <br>
+<img src="https://img.shields.io/badge/○_Import_Your_Existing_Pipeline-6e7681?style=flat-square" alt="Import Your Existing Pipeline"> <br>
+<img src="https://img.shields.io/badge/○_Deploy_to_Any_Cloud-6e7681?style=flat-square" alt="Deploy to Any Cloud"> <br>
+<img src="https://img.shields.io/badge/○_Run_Portably_Across_Any_CI-6e7681?style=flat-square" alt="Run Portably Across Any CI"> <br>
+<img src="https://img.shields.io/badge/○_Standalone_Mode%2C_Documented-6e7681?style=flat-square" alt="Standalone Mode, Documented">
 
 </td>
 </tr>

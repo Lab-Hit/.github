@@ -156,7 +156,7 @@ stages:
 <tr>
 <td align="center" width="33%">
 
-### :white_check_mark: &nbsp; Shipped &nbsp; `8`
+### :white_check_mark: &nbsp; Shipped &nbsp; `10`
 
 Built, tested, and live in the public beta.
 
@@ -167,17 +167,20 @@ Built, tested, and live in the public beta.
 <img src="https://img.shields.io/badge/✓_Webhooks-2ea043?style=flat-square" alt="Webhooks"> <br>
 <img src="https://img.shields.io/badge/✓_Sign--in_%26_Accounts-2ea043?style=flat-square" alt="Sign-in and Accounts"> <br>
 <img src="https://img.shields.io/badge/✓_Public_Beta_API_%26_Dashboard-2ea043?style=flat-square" alt="Public Beta API and Dashboard"> <br>
-<img src="https://img.shields.io/badge/✓_GitHub_Integration_—_status_checks-2ea043?style=flat-square" alt="GitHub Integration">
+<img src="https://img.shields.io/badge/✓_GitHub_Integration_—_status_checks-2ea043?style=flat-square" alt="GitHub Integration"> <br>
+<img src="https://img.shields.io/badge/✓_Crash_Recovery_—_Never_Lose_a_Run-2ea043?style=flat-square" alt="Crash Recovery"> <br>
+<img src="https://img.shields.io/badge/✓_Build--failure_Diagnosis-2ea043?style=flat-square" alt="Build-failure Diagnosis">
 
 </td>
 <td align="center" width="33%">
 
-### :hammer_and_wrench: &nbsp; Building &nbsp; `2`
+### :hammer_and_wrench: &nbsp; Building &nbsp; `3`
 
 Run LabHit inside the workflow your team already uses.
 
 <img src="https://img.shields.io/badge/◆_Connect--your--repo_Flow-d29922?style=flat-square" alt="Connect-your-repo Flow"> <br>
-<img src="https://img.shields.io/badge/◆_Per--repo_Secrets-d29922?style=flat-square" alt="Per-repo Secrets">
+<img src="https://img.shields.io/badge/◆_Per--repo_Secrets-d29922?style=flat-square" alt="Per-repo Secrets"> <br>
+<img src="https://img.shields.io/badge/◆_Pipeline_Health_%26_Flaky_Detection-d29922?style=flat-square" alt="Pipeline Health and Flaky Detection">
 
 </td>
 <td align="center" width="33%">

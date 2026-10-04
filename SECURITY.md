@@ -1,65 +1,17 @@
 # Security Policy
 
-## Reporting a Vulnerability
+## Reporting a vulnerability
 
-Report security vulnerabilities to **security@labhit.dev**.
+Report security issues to **security@labhit.dev**. Do not open a public GitHub issue for a vulnerability.
 
-Do not open a public GitHub issue for security vulnerabilities.
+Please include a description of the issue, steps to reproduce it, the impact you expect, and a suggested fix if you have one. You will get an acknowledgment within 7 days.
 
-### What to Include
+## Scope
 
-- Description of the vulnerability
-- Steps to reproduce
-- Impact assessment
-- Suggested fix (if any)
+This policy covers the repositories in the `Lab-Hit` organization that are not archived, and the `labhit.dev` website.
 
-### Response Timeline
+## Out of scope
 
-| Severity | Acknowledgment | Fix Target |
-|----------|---------------|-----------|
-| Critical | 24 hours | 72 hours |
-| High | 48 hours | 7 days |
-| Medium | 7 days | 30 days |
-| Low | 14 days | Next release |
-
-### Scope
-
-This policy covers:
-
-- The LabHit engine (`labhit` repository)
-- The WASM runtime and sandbox
-- The API gateway (GraphQL + gRPC)
-- Official extensions
-- The web dashboard
-- Infrastructure at labhit.dev
-
-### Out of Scope
-
-- Third-party extensions in the marketplace
-- Vulnerabilities in upstream dependencies (report to the upstream project)
-- Social engineering attacks
-
-## Supported Versions
-
-| Version | Supported |
-|---------|-----------|
-| 0.x (pre-release) | Best-effort |
-| 1.x (when released) | Full support |
-
-## Security Design
-
-LabHit is built with a defense-in-depth security model:
-
-1. **Execution Isolation** -- Container-based isolation for pipeline stages
-2. **Plugin Sandboxing** -- WASM with deny-by-default capabilities
-3. **Identity & Access** -- Workload identity and access control
-4. **Policy Engine** -- Attribute-based policy evaluation
-5. **Supply Chain** -- Extension signing and provenance verification
-6. **Runtime Monitoring** -- Syscall-level observability
-
-## Responsible Disclosure
-
-We follow a 90-day disclosure timeline. If a fix is not available within 90 days,
-the reporter may disclose the vulnerability publicly.
-
-We credit reporters in our security advisories unless they request anonymity.
+- Archived repositories. They belong to LabHit CI, which was retired in October 2026, and are kept read-only as a record. Nothing from them is deployed.
+- Vulnerabilities in upstream dependencies. Report those to the upstream project.
+- Social engineering.

@@ -1,61 +1,7 @@
-# Contributing to LabHit
+# Contributing
 
-Contributions are welcome across all LabHit repositories.
+Thank you for your interest. There is nothing to contribute to yet.
 
-## Where to Contribute
+The organization is preparing a new project. Its first specification and tooling will appear here as public repositories, each with its own contribution guide. Until then, the repositories you can see are archived and read-only; they belong to LabHit CI, which was retired in October 2026.
 
-| Repository | What to contribute |
-|-----------|-------------------|
-| [labhit-spec](https://github.com/Lab-Hit/labhit-spec) | Interface proposals, schema changes |
-
-## How to Contribute
-
-1. Fork the repository
-2. Create a branch from `main`
-3. Make your changes
-4. Write tests for new functionality
-5. Run the test suite
-6. Submit a pull request
-
-## Development Setup
-
-### Engine (Rust)
-
-```bash
-# Prerequisites: Rust 1.75+, Docker 24+
-rustup target add wasm32-wasip1
-cd engine
-cargo build --workspace
-cargo test --workspace
-cargo clippy --workspace
-```
-
-### Dashboard (React)
-
-```bash
-# Prerequisites: Node.js 20+
-cd dashboard
-npm install
-npm run dev
-```
-
-## Commit Messages
-
-Use clear, descriptive commit messages:
-
-```
-fix: prevent path traversal in filesystem capability check
-feat: add network allowlist wildcard validation
-docs: update CLI reference with new extension subcommands
-test: add scheduler cycle detection edge cases
-```
-
-## Code Style
-
-- **Rust:** `cargo fmt` and `cargo clippy` with zero warnings
-- **TypeScript:** Prettier defaults
-- **Documentation:** Direct, technical prose
-
-## License
-
-By contributing, you agree that your contributions are licensed under Apache 2.0.
+If you want to be notified, watch the organization.

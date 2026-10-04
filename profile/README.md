@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://labhit.dev">
-    <img src="https://raw.githubusercontent.com/Lab-Hit/.github/main/profile/banner.svg" alt="LabHit. Something new is in preparation." width="100%">
+    <img src="https://raw.githubusercontent.com/Lab-Hit/.github/main/profile/banner-2026-10.svg" alt="LabHit. Something new is in preparation." width="100%">
   </a>
 </p>
 
